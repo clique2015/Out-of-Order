@@ -1,6 +1,6 @@
 Out-of-Order Execution with Runahead and AVD Prediction
 
-This example demonstrates the high-level logic of Runahead Execution and AVD (Approximate Value Derivation) Prediction in a software context. While the code does not implement all hardware mechanisms described in related research (e.g., checkpointing or complete processor architecture), it illustrates how AVD prediction and runahead execution can collaborate to improve memory latency.
+This example demonstrates the high-level logic of Runahead Execution and AVD (Approximate Value Derivation) Prediction in a software context. While the code does not implement all hardware mechanisms described in the paper (e.g., checkpointing or complete processor architecture), it illustrates how AVD prediction and runahead execution can collaborate to improve memory latency.
 
 When an AVD prediction fails, the system transitions to runahead execution, speculatively pre-executing subsequent instructions to hide memory access delays.
 Key Features
